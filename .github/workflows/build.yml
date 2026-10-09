@@ -1,0 +1,20 @@
+name: Build and validate plugin
+
+on:
+  push:
+    branches: [master]
+    tags: ["v*"]
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    uses: NhanAZ/DevTools/.github/workflows/build-plugin.yml@19b414820b06a20227b298af8c1d67aaaf76bf73
+    with:
+      devtools-ref: 19b414820b06a20227b298af8c1d67aaaf76bf73
+      axolotl-ref: dfe0d07e48a9e8d5a4a242fa43ff1cd3b743a955
+      phpstan: max
