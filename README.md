@@ -1,9 +1,15 @@
 # NoEmoteMessage
 
-NoEmoteMessage asks the Bedrock client to hide emote announcements when a player joins an Axolotl-PM server. It changes a setting in the outgoing start-game packet and does not block emotes themselves.
+Mute Bedrock emote announcements for players joining Axolotl-PM
 
-[![Build](https://github.com/NhanAZ-Plugins/NoEmoteMessage/actions/workflows/build.yml/badge.svg)](https://github.com/NhanAZ-Plugins/NoEmoteMessage/actions/workflows/build.yml)
-[![License](https://img.shields.io/github/license/NhanAZ-Plugins/NoEmoteMessage)](LICENSE)
+[![CI](https://github.com/NhanAZ-Plugins/NoEmoteMessage/actions/workflows/build.yml/badge.svg)](https://github.com/NhanAZ-Plugins/NoEmoteMessage/actions/workflows/build.yml)
+[![Latest release](https://img.shields.io/github/v/release/NhanAZ-Plugins/NoEmoteMessage)](https://github.com/NhanAZ-Plugins/NoEmoteMessage/releases/latest)
+[![License](https://img.shields.io/github/license/NhanAZ-Plugins/NoEmoteMessage)](https://github.com/NhanAZ-Plugins/NoEmoteMessage/blob/master/LICENSE)
+[![Discord](https://img.shields.io/discord/986553214889517088?label=Discord&logo=discord&logoColor=white&color=5865F2)](https://discord.gg/j2X83ujT6c)
+
+## Overview
+
+This plugin targets the PocketMine-MP and Axolotl-PM API 5 ecosystem and is maintained under [NhanAZ-Plugins](https://github.com/NhanAZ-Plugins).
 
 ## Requirements and compatibility
 
