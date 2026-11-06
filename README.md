@@ -23,7 +23,7 @@ When the server sends a `StartGamePacket`, the plugin sets `levelSettings->muteE
 
 ## Building and testing
 
-The [build workflow](.github/workflows/build.yml) runs PHPStan at maximum level, builds and inspects the PHAR with [DevTools](https://github.com/NhanAZ/DevTools), and uploads the verified artifact. A clean server startup confirms the plugin loads. Seeing the announcement change requires a Bedrock client test.
+The [build workflow](.github/workflows/build.yml) runs PHPStan at maximum level, builds and inspects the PHAR with [DevTools](https://github.com/AxolotlBucketLabs/DevTools), and uploads the verified artifact. A clean server startup confirms the plugin loads. Seeing the announcement change requires a Bedrock client test.
 
 ## License and support
 
